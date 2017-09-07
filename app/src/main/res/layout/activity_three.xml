@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thiam.thiam_quiz1.ActivityThree">
+
+
+    <Button
+        android:id="@+id/it_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="57dp"
+        android:text="Home"
+        android:onClick="activity_main"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp" />
+
+    <Button
+        android:id="@+id/it_comsci"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CS Program"
+        android:onClick="activity_two"
+        android:layout_alignBaseline="@+id/it_home"
+        android:layout_alignBottom="@+id/it_home"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/it_infosys"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IS Program"
+        android:onClick="activity_four"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_alignBaseline="@+id/it_comsci"
+        android:layout_alignBottom="@+id/it_comsci"
+        android:layout_toRightOf="@+id/it_comsci"
+        android:layout_toEndOf="@+id/it_comsci" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="121dp"
+        android:text="Bachelor of Science in Information Technology (4 years)"
+        android:textSize="15sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="        Level I accredited by the Philippine Accrediting Association of Schools, Colleges, and Universities Under this program, the students are trained to be well versed in the practical and technical know-how of installing/setting-up of computers and computer networks.
+        Special skills taught include troubleshooting and repairing of hardware components."
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+</RelativeLayout>

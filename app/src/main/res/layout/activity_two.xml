@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thiam.thiam_quiz1.ActivityTwo">
+
+
+    <Button
+        android:id="@+id/cs_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="63dp"
+        android:text="Home"
+        android:onClick="activity_main"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+    <Button
+        android:id="@+id/cs_infotech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IT Program"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp"
+        android:layout_alignBaseline="@+id/cs_home"
+        android:layout_alignBottom="@+id/cs_home"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/cs_infosys"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IS Program"
+        android:layout_marginRight="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_alignBaseline="@+id/cs_home"
+        android:layout_alignBottom="@+id/cs_home"
+        android:layout_toLeftOf="@+id/cs_infotech"
+        android:layout_toStartOf="@+id/cs_infotech" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="93dp"
+        android:text="Bachelor of Science in Computer Science (4 years)"
+        android:textSize="16sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="        Level I accredited by the Philippine Accrediting Association of Schools, Colleges, and Universities Students under the BS Computer Science program are highly trained for software and system development.
+        The program’s main focus is to expose the students to different approaches and styles in developing programs whether they are procedural or the object oriented type of system approach."
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/cs_home"
+        android:layout_alignStart="@+id/cs_home" />
+
+</RelativeLayout>
